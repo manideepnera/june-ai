@@ -1,0 +1,6 @@
+chunk_size: 512
+chunk_overlap: 50
+top_k: 4
+embedding_model: all-MiniLM-L6-v2
+chroma_path: storage/vectors
+chroma_collection: june_knowledge

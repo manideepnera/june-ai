@@ -1,0 +1,12 @@
+# Which provider to use first
+active_provider: ollama
+model: qwen2.5-3b
+ollama_base_url: http://localhost:11434
+
+# Fallback if Ollama is not available
+fallback_provider: openai
+fallback_model: gpt-4o
+
+#Generation settings
+temperature: 0.7
+max_tokens: 2048

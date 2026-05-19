@@ -1,0 +1,27 @@
+# Web framework
+fastapi
+uvicorn
+
+# Data validation
+pydantic
+pydantic-settings
+
+# Config
+pyyaml
+python-dotenv
+
+# HTTP
+requests
+httpx
+
+# RAG
+chromadb
+sentence-transformers
+pymupdf
+pypdf
+
+# LLM API fallback
+openai
+
+# Terminal UI
+rich
