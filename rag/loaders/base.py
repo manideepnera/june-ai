@@ -14,3 +14,12 @@ class BaseLoader(ABC):
         """
 
         pass
+
+    @abstractmethod
+    def supports(self, file_path: str) -> bool:
+        """
+        Return True if this loader can handle this file type.
+        Ex: PDFLoader.supports("notes.pdf") -> True
+        """
+
+        pass
