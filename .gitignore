@@ -6,4 +6,4 @@ __pycache__/
 storage/vectors/
 logs/
 .DS_Store
-.md
+*.md

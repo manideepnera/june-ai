@@ -1,0 +1,11 @@
+Artificial Intelligence is the field of computer science focused on
+creating systems that can perform tasks that normally require human intelligence.
+
+Machine learning is a subset of AI where systems learn from data.
+Instead of being explicitly programmed, they identify patterns and make decisions.
+
+Deep learning uses neural networks with multiple layers.
+These networks can learn complex representations from raw data.
+
+Large language models like GPT and Qwen are trained on massive text datasets.
+They learn to predict the next token, which leads to emergent language understanding.

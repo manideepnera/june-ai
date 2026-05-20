@@ -1,0 +1,12 @@
+RAG stands for Retrieval Augmented Generation.
+
+The core idea is to give an LLM access to external knowledge at query time.
+Instead of relying solely on training data, the model retrieves relevant documents
+and uses them as context when generating responses.
+
+This solves the knowledge cutoff problem.
+It also allows the model to cite sources and stay grounded in facts.
+
+Vector databases like ChromaDB store document embeddings.
+At query time, the question is embedded and similar documents are retrieved.
+These retrieved chunks are then injected into the LLM prompt as context.
